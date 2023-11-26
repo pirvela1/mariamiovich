@@ -1,0 +1,123 @@
+body {
+    background-image: url(back.jpg);
+}
+.conteiner1 {
+    width: 500px;
+    height: 600px;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    background-image: url(back.jpg);
+}
+.conteiner1 > p {
+    font-size: 22px;
+}
+.conteiner2 {
+    width: 500px;
+    height: 600px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+
+}
+.conteiner2 > img {
+    width: 150px;
+    height: 50px;
+}
+.conteiner2 > p {
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+}
+.conteiner2 > a {
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+}
+.conteiner2 > input  {
+    width: 320px;
+    height: 43px;
+    font-size: 20px;
+}
+.conteiner2 > input::placeholder {
+    font-size: 16px;
+}
+.login {
+    width: 330px;
+    height: 55px;
+    border: 2px solid rgb(46, 46, 74);
+    border-radius: 6px;
+    background-color: rgb(15, 50, 144);
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+.login:hover {
+    box-shadow: 0 0 10px black;
+
+}
+.singup {
+
+    border: 0;
+    color: blue;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+.main_conteiner {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: -3px 2px 14px 4px black;
+    border-radius: 20px;
+}
+.media_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.socialmedia {
+    width: 320px;
+    height: 80px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.inst:hover {
+    margin-bottom: 20px;
+    box-shadow: -7px 12px 10px black;
+    transition: 0.4s;
+
+}
+.fac:hover {
+    margin-bottom: 20px;
+    box-shadow: -7px 12px 10px black;
+    transition: 0.7s;
+}
+.twit:hover {
+    margin-bottom: 20px;
+    box-shadow: -7px 12px 10px black;
+    transition: 0.7s;
+}
+.tik:hover {
+    margin-bottom: 20px;
+    box-shadow: -7px 12px 10px black;
+    transition: 0.7s;
+}
+.socialmedia {
+    display: flex;
+    gap: 30px;
+}

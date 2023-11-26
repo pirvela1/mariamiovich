@@ -1,0 +1,91 @@
+
+body{
+    background-image: url(pink1.jpg);
+    background-size: 100% auto;
+}
+.regconteiner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+}
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid rgb(255, 37, 73);
+    width: 500px;
+    height: 350px;
+    background-color: rgb(255, 44, 79);
+    border-radius: 30px;
+   box-shadow: 0 0 10px;
+}
+.registration > p {
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    text-shadow: 0 0 10px;
+}
+.title {
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0 0 10px black;
+}
+.registration > input {
+    width: 300px;
+    height: 32px;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+}
+.button {
+    width: 120px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(255, 51, 85);
+    border: 2px solid rgb(255, 51, 85);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.button:hover {
+    width: 140px;
+    text-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+.registration > a {
+    color: aqua;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    align-items: flex-end;
+
+}
+.registration > a:hover {
+    text-shadow: 0 0 10px white;
+    color: red;
+}
+.img {
+    width: 20px;
+    height: 20px;
+}
+
